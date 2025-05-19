@@ -309,10 +309,10 @@
 
         let htmlContent = targetDiv.outerHTML;
         const canvasDataUrl = captureCanvasImage(targetDiv);
-        sendContentToGPT(htmlContent, canvasDataUrl);
+        sendContentToGu(htmlContentyy, canvasDataUrl);
     }
 
-    function monitorNewQuestions() {
+    function monitorNewQuestionstgghj() {
         const observer = new MutationObserver(() => {
             if (autoAnswerModeEnabled) {
                 logMessage("New question detected, attempting to answer...");
